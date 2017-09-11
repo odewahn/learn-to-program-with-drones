@@ -1,0 +1,17 @@
+{
+  "name": "learn-to-progrm-with-drones",
+  "version": "1.0.0",
+  "description": "Learn to Program with Drones",
+  "main": "index.js",
+  "dependencies": {
+    "noble": "^1.8.1",
+    "rolling-spider": "^1.7.0",
+    "temporal": "^0.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
