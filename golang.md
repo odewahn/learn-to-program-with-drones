@@ -69,9 +69,9 @@ func main() {
 
 Before trying anything, make sure you're connected to the drone using [LightBlue](https://itunes.apple.com/gb/app/lightblue/id639944780?mt=12) :
 
-<img src="images/lightblue.png" width="50%"/>
+<img src="images/advanced-bluetooth.png" width="50%"/>
 
-Once you are, do:
+You can get similar information with Gort; from my few tests, though, it appears that you have to be connected over lightblue to be able to issue any commands:
 
 ```
 $ gort scan ble
@@ -80,7 +80,7 @@ Scanning for 5s...
 [e2d76ade207d4a9a95cfb51c240baee7] C -48: Name: RS_R072470
 ```
 
-Then you can run the program; note that [you need to turn off the cgo check](https://github.com/hybridgroup/gobot/issues/298):  
+Note that [you need to turn off the cgo check](https://github.com/hybridgroup/gobot/issues/298):  
 
 ```
 GODEBUG=cgocheck=0 go run main.go RS_R072470
